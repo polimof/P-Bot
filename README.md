@@ -4,25 +4,6 @@ This is the first firmware for P-Bot.
 It is a mess and far from perfect. But it works as a basic firmware.
 Feel free to use it. 
 
--Installed library in Arduino-
-NTPClient by Fabrice Weinberg
-Servo by Michael Margolis Arduino
-Adafruit BusIO by Adafruit
-Adafruit GFX library by Adafruit
-Adafruit HMC5883 Unified By Adafruit
-Adafruit SSD1305 by Adafruit
-Adafruit SSD1306 by Adafruit
-Adafruit SSD1306 Wemos Mini Oled by Adafruit
-Adafruit Softservo by Adafruit
-Adafruit Unified Sensor by Adafruit
-Adafruit VL53LOX by Adafruit
-ArxTypeTraits by hideakitai
-AsynDelay by Steve Marple
-AsyncTCP by dvarrel
-Buzzer by Giuseppe Martini
-DFrobot_QMC5883 by DFRobot
-DFrobot_VL53LOX by DFRobot
-ESP Async WebServer by ESP32Async
-ESP32Servo by Kevin Harrington
-ESP32_SoftWire by qqqlab
-
+For non coders, I have added the bin file from the arduino code. You can just use ESP web based flash tool to flash the P-Bot. If there is another version of firmware, I will just upload the bin file. Download the bin file.
+Open the link below, select your serial port and change the address from 0x1000 to 0x10000, and choose the downloaded bin file from your computer. Then, hit program. After finish, hit disconnect, pull out the usb wire and reenter the usb wire into the usb port. It should boot to the new firmware. 
+https://espressif.github.io/esptool-js/
